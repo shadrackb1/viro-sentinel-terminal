@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+vendor/
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Large files (consider Git LFS)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.iso
+*.img
+
+# Database
+*.sqlite
+*.db
+*.sql
+
+# Certificates/Keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
